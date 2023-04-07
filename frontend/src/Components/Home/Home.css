@@ -1,0 +1,49 @@
+.Home {
+    background-color: rgb(36, 77, 64);
+    height: 94%;
+    background-image: url(mountains.png);
+    background-size: cover;
+    opacity: 1.0;
+    background-blend-mode:multiply;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Welcome {
+    font-size: 8rem;
+}
+
+.Enter {
+    /* background-color: rgb(30, 97, 56); */
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.Enter button{
+    width: 25%;
+    height: 25%;
+    font-size: 1.8rem;
+    background-color: rgb(31, 209, 149);
+    border-radius: 100px;
+    border-color: aqua;
+    border-style: solid;
+}
+
+.Enter button:hover{
+    background-color: green;
+    color: aqua;
+}
+
+.Summary {
+    font-size: 2rem;
+}
