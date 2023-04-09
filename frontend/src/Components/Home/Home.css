@@ -1,7 +1,7 @@
 .Home {
     background-color: rgb(36, 77, 64);
     height: 94%;
-    background-image: url(mountains.png);
+    background-image: url(../mountains.png);
     background-size: cover;
     opacity: 1.0;
     background-blend-mode:multiply;
